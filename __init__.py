@@ -19,7 +19,7 @@ def plotpoints():
     glEnd()
     x = 0.0
     while x <= 1.0:
-        y = x**2
+        y = x**2			#y = x^2
         glBegin(GL_POINTS)
         glVertex2f(x, y)
         glVertex2f(-x, y)
@@ -30,7 +30,7 @@ def plotpoints():
         
     x = 0.0
     while x <= 1.0:
-        y = math.sqrt(x)
+        y = math.sqrt(x)	#y = x^1/2
         glBegin(GL_POINTS)
         glVertex2f(x, y)
         glVertex2f(-x, y)
