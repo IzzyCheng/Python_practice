@@ -26,7 +26,7 @@ def plotpoints():
         glVertex2f(x, -y)
         glVertex2f(-x, -y)
         glEnd()
-        x += 0.01
+        x += 0.001
         
     x = 0.0
     while x <= 1.0:
@@ -37,7 +37,7 @@ def plotpoints():
         glVertex2f(x, -y)
         glVertex2f(-x, -y)
         glEnd()
-        x += 0.01
+        x += 0.001
 
     glFlush()
 
